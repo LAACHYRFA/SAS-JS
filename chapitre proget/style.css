@@ -1,0 +1,50 @@
+body {
+    background-color: #a1cbd7;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  input, select, button {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: rgb(149, 223, 11);
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .book-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+  }
+  
+  .book-card h3 {
+    color: #007bff;
+  }
+  
+  #stats {
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 8px;
+  }
+  
+  #catalogue {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
